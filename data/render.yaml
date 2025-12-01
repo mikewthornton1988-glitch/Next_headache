@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: next_headache_bot
+    env: python
+    runtime: python3.12
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
