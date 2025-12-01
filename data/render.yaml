@@ -1,7 +1,0 @@
-services:
-  - type: worker
-    name: next_headache_bot
-    env: python
-    plan: starter
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
