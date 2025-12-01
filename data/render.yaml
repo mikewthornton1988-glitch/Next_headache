@@ -2,6 +2,6 @@ services:
   - type: worker
     name: next_headache_bot
     env: python
-    runtime: python3.12
+    plan: starter
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python main.py"
